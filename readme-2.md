@@ -16,3 +16,4 @@ Sigamos el ejemplo de:
 
 [Documentación geodicoding ejemplo](https://developers.google.com/maps/documentation/javascript/examples/geocoding-simple?hl=es)
 
+- Analicemos el ejemplo y lo comparemos con la función que tenemos que trabajar en la guía 2, sobre geodecoder.
