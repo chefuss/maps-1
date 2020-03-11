@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Geocoding Service</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div id="floating-panel">
+      <input id="address" type="textbox" value="Córdoba, Argentina">
+      <input id="submit" type="button" value="Geocode">
+    </div>
+    <div id="map"></div>
+    <script src="js/script.js"></script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCQvubfeXda_qr6qof8yLeAmtAi8b2c_zM&callback=initMap">
+    </script>
+    <script src="js/geo.js"></script>
+  </body>
+</html>
